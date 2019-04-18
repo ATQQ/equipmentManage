@@ -49,6 +49,7 @@
       * MYSQL
         * [补充内容,看没看过的部分](http://www.sikiedu.com/course/48/tasks)
         * tips:大概就群里截图部分内容,**不需要装教程里面的workbench**,MYSQL看了再学下面的
+        * status:**done**
       * MyBatis
         * [中文文档](http://www.mybatis.org/mybatis-3/zh/index.html)
         * [Siki学院教程](http://www.sikiedu.com/my/course/258)
@@ -57,11 +58,34 @@
       * SASS
         * [官方文档](https://www.sass.hk/)
         * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+        * status:**done**;
        
     * 小程序端
       * DDL:无 DDL
       * [查漏补缺教程](https://pan.baidu.com/s/1wt8-BM5R6UMexXDTkF0Gwg)
       * 提取码:81ni 
 
-  * status:&emsp;**going**
+  * status:&emsp;**done**
   * **Tips:**&emsp;今天开始,每天<strong style="color:red">21:00</strong>汇报一下学习了哪些内容.
+
+* 任务5 
+  * startTime:19-04-19 00:00
+  * content:**framework Technology**
+    * 后端(继续上个未结束任务)
+      * DDL: 19-04-20 21:00
+      * MyBatis
+        * [中文文档](http://www.mybatis.org/mybatis-3/zh/index.html)
+        * [Siki学院教程](http://www.sikiedu.com/my/course/258)
+    * Web前端
+      * DDL:19-04-25 21:00
+      * bootstrap实战
+      * [百度云](链接：https://pan.baidu.com/s/1W9AoPMT2tbk5BED9M3cgBw)
+        * 提取码：hu72
+      * tips:书写CSS时用sass/scss替代,顺带熟悉,用GIT管理记录每天的进度
+    * 小程序端
+      * DDL: 19-04-20 21:00
+      * [查漏补缺教程](https://pan.baidu.com/s/1wt8-BM5R6UMexXDTkF0Gwg)
+      * 提取码:81ni 
+
+  * status:&emsp;**going**
+ 
