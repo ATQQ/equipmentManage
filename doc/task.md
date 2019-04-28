@@ -79,7 +79,7 @@
     * Web前端
       * DDL:19-04-25 21:00
       * bootstrap实战
-      * [百度云](链接：https://pan.baidu.com/s/1W9AoPMT2tbk5BED9M3cgBw)
+      * [百度云](https://pan.baidu.com/s/1W9AoPMT2tbk5BED9M3cgBw)
         * 提取码：hu72
       * tips:书写CSS时用sass/scss替代,顺带熟悉,用GIT管理记录每天的进度
     * 小程序端
@@ -87,5 +87,26 @@
       * [查漏补缺教程](https://pan.baidu.com/s/1wt8-BM5R6UMexXDTkF0Gwg)
       * 提取码:81ni 
 
-  * status:&emsp;**going**
+  * status:&emsp;**done**
+
+* 任务6 
+  * startTime:19-04-28 11:00
+  * content:**framework Technology**
+    * 后端
+      * DDL: 19-05-2 21:00
+      * Spring
+        * [Siki学院教程](http://www.sikiedu.com/my/course/267)
+    * Web前端
+      * DDL:19-05-2 21:00
+      * 响应式Web程序设计案例
+      * [百度云](https://pan.baidu.com/s/1iwdBwdBAN90fxVL7sxlrng)
+        * 提取码：n7oo
+      * tips:学不了解与不会的部分(查漏补缺,不用挨着挨着看)
+    * 小程序端
+      * DDL: 19-05-2 21:00
+      * [查漏补缺教程](https://pan.baidu.com/s/1wt8-BM5R6UMexXDTkF0Gwg)
+      * 提取码:81ni 
+      * [Flex弹性布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+
+  * status:&emsp;**gone**
  
