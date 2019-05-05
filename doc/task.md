@@ -108,5 +108,26 @@
       * 提取码:81ni 
       * [Flex弹性布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
-  * status:&emsp;**gone**
+  * status:&emsp;**done**
+
+* 任务7 
+  * startTime:19-05-06 00:00
+  * content:**五花八门**
+    * 后端
+      * DDL: 19-05-12 21:00
+      * Spring MVC
+        * [Siki学院教程](http://www.sikiedu.com/my/course/277)
+        * 账号:15196520474
+        * 密码:私发
+    * Web前端
+      * DDL:19-05-10 21:00
+      * 熟悉ajax的使用     
+      * 了解前后端开发中接口的概念 
+      * 了解接口文档的编写
+        * tips:这个我没有具体的资料,你先百度了解一下,我找到了再发你
+      * 学习使用Mockjs的使用
+        * tips:这个我也还不会,你先看着,我找到靠谱的资料共享给你
+      * ~~~~了解[Eolinker](https://www.eolinker.com)(一个集接口管理/测试等于一体的平台)的基本用法,**先不忙到了解这个**~~
+
+  * status:&emsp;**going**
  
