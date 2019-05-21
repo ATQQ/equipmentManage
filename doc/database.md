@@ -1,3 +1,49 @@
+## 相关SQL
+* 创建数据库
+  * lab_equipment
+    * ```sql
+        CREATE DATABASE `lab_equipment` CHARACTER SET 'utf8';
+      ```
+* 创建表
+  * equipment(设备)
+    * ```sql
+      CREATE TABLE `equipment` (
+        `eq_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键自增非空',
+        `eq_name` varchar(32) NOT NULL COMMENT '设备名称',
+        `eq_number` varchar(32) NOT NULL COMMENT '设备编号',
+        `category_id` int(11) NOT NULL COMMENT '设备所属分类',
+        `introduce` varchar(200) NOT NULL COMMENT '设备简介',
+        `amount` int(11) NOT NULL COMMENT '可外借数量库存',
+        `loan` int(11) NOT NULL COMMENT '外借借出数量',
+        `number_use` int(11) NOT NULL COMMENT '已被外借次数',
+        `eq_date` datetime NOT NULL COMMENT '设备创建日期',
+        `eq_admin` varchar(32) NOT NULL COMMENT '创建者账号',
+        `images` varchar(255) NOT NULL COMMENT '设备相关图片',
+        PRIMARY KEY (`eq_id`)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+      ```
+  * category(种类/分类)
+    * ```sql
+            CREATE TABLE `category` (
+            `cg_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
+            `cg_name` varchar(16) NOT NULL COMMENT '分类名称',
+            `cg_date` datetime NOT NULL COMMENT '创建日期',
+            `cg_admin` varchar(32) NOT NULL COMMENT '创建者账号',
+            PRIMARY KEY (`cg_id`)
+           )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+      ```   
+  * eq_correlation(设备关联表)
+    * ```sql
+       CREATE TABLE `eq_correlation` (
+          `eq_co_id` int(11) NOT NULL COMMENT '主键',
+          `eq_parent_id` int(11) NOT NULL COMMENT '主设备id',
+          `eq_child_id` int(11) NOT NULL COMMENT '被关联的设备id',
+          PRIMARY KEY (`eq_co_id`)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+      ```
+
+
+
 # 数据库表设计文档v1.0.1
 **Tips**
 * NN=NOT NULL
