@@ -34,12 +34,12 @@
       ```   
   * eq_correlation(设备关联表)
     * ```sql
-       CREATE TABLE `eq_correlation` (
-          `eq_co_id` int(11) NOT NULL COMMENT '主键',
-          `eq_parent_id` int(11) NOT NULL COMMENT '主设备id',
-          `eq_child_id` int(11) NOT NULL COMMENT '被关联的设备id',
-          PRIMARY KEY (`eq_co_id`)
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+      CREATE TABLE `eq_correlation` (
+        `eq_co_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '     主键',
+        `eq_parent_id` int(11) NOT NULL COMMENT '主设备id',
+        `eq_child_id` int(11) NOT NULL COMMENT '被关联的设备id',
+        PRIMARY KEY (`eq_co_id`)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
       ```
 
 
