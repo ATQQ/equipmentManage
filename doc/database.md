@@ -82,3 +82,33 @@
 |   eq_co_id   |  int  | PK/NN/AI | 主键自增非空 |    1    | 数据表自增 |
 | eq_parent_id |  int  |    NN    |   主设备id   |    3    |  用户选择  |
 | eq_child_id  |  int  |    NN    |  附属设备id  |    4    |  用户选择  |
+
+
+
+---
+#用户表(user)
+|      name       |    type     | property |      comment       |   example   |
+| :-------------: | :---------: | :------: | :----------------: | :---------: |
+|     user_id     |     int     | NN/PK/AI |        主键        |      1      |
+|   user_number   | varchar(32) |    NN    |        工号        |   xxxxxx    |
+|    password     | vachar(64)  |    NN    |        密码        |   a123456   |
+|   first_login   |    bool     |    NN    |    是否初次登录    |    false    |
+|   user_power    |     int     |    NN    |      用户权限      |      0      |
+|  user_academy   | vachar(32)  |    NN    |      所属学院      |   艺术院    |
+| user_profession | varchar(32) |    NN    |        专业        |  播音主持   |
+|   user_phone    |     int     |    N     |      电话号码      | 173xxxx5658 |
+|     deposit     |     int     |    NN    |      押金金额      |   默认:0    |
+|     open_id     | varchar(64) |   N/UN   | 微信用户身份标识id |  sadada...  |
+
+#设备租借数据管理表/订单(order)
+|      name       |    type     | property |   comment    |  example   |
+| :-------------: | :---------: | :------: | :----------: | :--------: |
+|    order_id     |     int     | PK/NN/AI |     主键     |     1      |
+|  order_number   | varchar(32) |    NN    |   订单编号   |     10     |
+|      eq_id      |     int     |    NN    |    设备id    |     9      |
+|   order_start   |  datatime   |    NN    | 设备借出时间 | 2019-07-12 |
+|    order_end    |  datatime   |    N     | 设备归还时间 | 2019-07-28 |
+| order_lend_days |     int     |    NN    |   租借天数   |     30     |
+|     number      |     int     |    NN    |   借用个数   |     8      |
+|   user_number   | varchar(32) |    NN    |  租借人工号  |    xxxx    |
+|  order_status   |     int     |    NN    |   订单状态   |     0      |
